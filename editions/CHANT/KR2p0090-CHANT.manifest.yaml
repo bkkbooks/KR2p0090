@@ -1,0 +1,45 @@
+canonical_identifier: bkk:krp/KR2p0090/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR2p0090/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 足臂十一脈灸經釋文
+  identifiers:
+    krp: KR2p0090
+  tags:
+    kr-categories: KR2p
+  source:
+    repository: tls-texts
+    path: data/tls/KR2p0090.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR2p0090_001-CHANT.yaml, hash: 'sha256:3ff295d39f9dc83466d733ff13030cb7c26e3e70191f19af165797f7a9b885ea'}
+  - {seq: 2, filename: KR2p0090_002-CHANT.yaml, hash: 'sha256:ee74ea311f9c4a5585b61214f80d2e779564a8be4051476949033c25df56235e'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR2p0090_001-CHANT.markers.yaml, hash: 'sha256:d357f8142052479063d8fb40d7ba34a8a882f2ebfd94f76fc6a2e2e15ec9651e'}
+  - {seq: 2, role: markers, filename: assets/KR2p0090_002-CHANT.markers.yaml, hash: 'sha256:b4448e927ac46e90ecf51d458c4e9c0415f2bcf21c87c6cd6425081b036184ce'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR2p0090_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 562
+  label: 馬王堆漢墓帛書足臂十一脈灸經釋文足
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR2p0090_CHANT_002-1a.1-h
+    span:
+    - body
+    - 0
+    - 192
+  label: 馬王堆漢墓帛書足臂十一脈灸經釋文臂
+  type: section
+  level: 1
+hash: sha256:676c611de3a9e54f9c0332f87bbc2a8f0026c3b71b468bcad424eb848773df06
