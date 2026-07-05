@@ -16,11 +16,11 @@ metadata:
     short: bkk
 assets:
   parts:
-  - {seq: 1, filename: KR2p0090_001.yaml, hash: 'sha256:07536402a0a5a12492431e3c70a774c24064e0441c6cffcf83ca6a95d1924f3e'}
-  - {seq: 2, filename: KR2p0090_002.yaml, hash: 'sha256:a0fd91ca32ac8457f959236488f614ddda5dbaf144809e699e20c6d83960081e'}
+  - {seq: 1, filename: KR2p0090_001.yaml, hash: 'sha256:3ff295d39f9dc83466d733ff13030cb7c26e3e70191f19af165797f7a9b885ea'}
+  - {seq: 2, filename: KR2p0090_002.yaml, hash: 'sha256:ee74ea311f9c4a5585b61214f80d2e779564a8be4051476949033c25df56235e'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR2p0090_001.markers.yaml, hash: 'sha256:b34be4d86bc6912ae1cb1083d40e05511168bdf251d46a8e9fff21f5fa1ed6f2'}
-  - {seq: 2, role: markers, filename: assets/KR2p0090_002.markers.yaml, hash: 'sha256:99ea7623cdc4c9cd1fda68484bd1ff917ac493e8ac9fcab43ce3388f79e3de8c'}
+  - {seq: 1, role: markers, filename: assets/KR2p0090_001.markers.yaml, hash: 'sha256:712472348722640524bd4b18378a4d4c5c0ec96bb1b68cc6189eece2739845c4'}
+  - {seq: 2, role: markers, filename: assets/KR2p0090_002.markers.yaml, hash: 'sha256:fba9f117ce49a85077123970afb84dd59b9dad5146af082427119fc8c344be79'}
 table_of_contents:
 - ref:
     seq: 1
@@ -42,7 +42,4 @@ table_of_contents:
   label: 馬王堆漢墓帛書足臂十一脈灸經釋文臂
   type: section
   level: 1
-hash: sha256:3a0376f8018ff0b9a5aa88504f1e631ecb34f4dcb21576b1adda90a1092c0ce4
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:56bfd2d3efeb5b00327234ee33a0a8e25b5663900f622f82b87391db8b9a69cd
